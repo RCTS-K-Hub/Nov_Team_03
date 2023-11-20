@@ -1,0 +1,37 @@
+/* charts.css */
+
+.charts-container {
+  display: flex;
+  overflow-x: auto; /* Add horizontal scroll if charts exceed container width */
+}
+
+.chart-item {
+  flex: 0 0 auto; /* Maintain the initial size of each chart item */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 10px; /* Add space between charts, adjust as needed */
+}
+
+/* Decrease the size of the canvas inside each chart item */
+.chart-item canvas {
+  max-width: 100%; /* Make the canvas responsive */
+  max-height: 100%; /* Make the canvas responsive */
+}
+
+/* Add additional styles as needed */
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .charts-container {
+    flex-direction: column; /* Stack charts vertically on smaller screens */
+    overflow-x: hidden; /* Hide horizontal scroll on smaller screens */
+  }
+
+  .chart-item {
+    margin-right: 0; /* Remove margin between charts on smaller screens */
+    margin-bottom: 10px; /* Add space between charts vertically on smaller screens */
+  }
+}

@@ -1,0 +1,96 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Navbar styling */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  transition: left 0.3s ease-in-out;
+  padding-top: 60px; /* Adjust as needed based on your Navbar height */
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+/* CardsList styling */
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Align cards in the center */
+}
+
+.card {
+  width: calc(25% - 20px); /* Adjust margin and width as needed */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .sidebar {
+      left: 0;
+  }
+
+  .sidebar.open {
+      left: -250px;
+  }
+
+  .cards-list .card {
+      width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cards-list .card {
+      width: calc(100% - 20px);
+  }
+}
