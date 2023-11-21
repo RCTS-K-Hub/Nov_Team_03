@@ -5,23 +5,22 @@ NEED TO CREATE A FOLDER:- CLIENT: 1.The client was developed by react.js. 2.The 
 
 
 |-- src/
-|   |-- components/
-|   |   |   |-- Navbar.js
-|   |   |   |-- Navbar.css
-|   |   |   |-- Sidebar.js
-|   |   |   |-- Sidebar.css
-|   |   |   |-- Footer.js
-|   |   |   |-- Footer.css
-|   |   |   |-- Cards.js
-|   |   |   |-- Cards.css
-|   |   |   |-- Card.js
-|   |   |   |-- Card.css
-|   |   |   |-- Chart.js
-|   |   |   |-- Chart.css
-|   |   |   |-- Table.js
-|   |   |   |-- Table.css
-|   |   |   |-- Formdata.js
-|   |   |   |-- Formdata.css
+|   |-- Navbar.js
+|   |-- Navbar.css
+|   |-- Sidebar.js
+|   |-- Sidebar.css
+|   |-- Footer.js
+|   |-- Footer.css
+|   |-- Cards.js
+|   |-- Cards.css
+|   |-- Card.js
+|   |-- Card.css
+|   |-- Chart.js
+|   |-- Chart.css
+|   |-- Table.js
+|   |-- Table.css
+|   |-- Formdata.js
+|   |-- Formdata.css
 |
 |   |-- App.js
 
