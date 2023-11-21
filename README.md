@@ -4,29 +4,26 @@
 NEED TO CREATE A FOLDER:- CLIENT: 1.The client was developed by react.js. 2.The project is divided into several components, each with its specific functionality and styling. Here, we provided the documentation of the main components and their associated CSS files.
 
 
-
 |-- src/
-|   |   |-- Navbar.js
-|   |   |-- Navbar.css
-|   |   |-- Sidebar.js
-|   |   |-- Sidebar.css
-|   |   |-- Footer.js
-|   |   |-- Footer.css
-|   |   |-- Cards.js
-|   |   |-- Cards.css
-|   |   |-- Card.js
-|   |   |-- Card.css
-|   |   |-- Chart.js
-|   |   |-- Chart.css
-|   |   |-- Table.js
-|   |   |-- Table.css
-|   |   |-- Formdata.jss
-|   |   |-- Formdata.css
+|   |-- components/
+|   |   |   |-- Navbar.js
+|   |   |   |-- Navbar.css
+|   |   |   |-- Sidebar.js
+|   |   |   |-- Sidebar.css
+|   |   |   |-- Footer.js
+|   |   |   |-- Footer.css
+|   |   |   |-- Cards.js
+|   |   |   |-- Cards.css
+|   |   |   |-- Card.js
+|   |   |   |-- Card.css
+|   |   |   |-- Chart.js
+|   |   |   |-- Chart.css
+|   |   |   |-- Table.js
+|   |   |   |-- Table.css
+|   |   |   |-- Formdata.js
+|   |   |   |-- Formdata.css
 |
 |   |-- App.js
 
-
-
-MAIN PAGE COMPONENTS:- The Main Page component is the React component that defines the structure of your web application.
 
 ![Screenshot (4)](https://github.com/RCTS-K-Hub/Nov_Team_03/assets/116969273/48f31a34-d391-49ca-8a87-2e5ea4e10f72)
