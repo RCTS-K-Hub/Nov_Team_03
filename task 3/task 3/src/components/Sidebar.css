@@ -1,0 +1,50 @@
+/* Sidebar.css */
+.sidebar {
+  width: 80px;
+  height: 100%;
+  background-color: royalblue;
+  padding-top: 70px;
+  position: fixed;
+  left: -200px; /* Initially hide the sidebar off-screen */
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidebar.open {
+  left: 0; /* Slide the sidebar to the left when it's open */
+}
+
+.sidebar h2 {
+  color: white;
+  text-align: left;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar a:hover {
+  background-color:lightgray;
+}
+
+.close-btn {
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}

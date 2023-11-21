@@ -1,0 +1,92 @@
+/* AttendanceTable.css */
+
+/* Add styles for the table */
+.attendance-table {
+  width: 85%; /* Set the width to 70% */
+  margin: 16px auto; /* Center the table and add margin */
+  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.8); /* Blue box shadow */
+  border-collapse: collapse;
+  border-spacing: 0; /* Remove the gap between table cells */
+}
+
+.attendance-table th, .attendance-table td {
+  border: 1px solid #ecf0f1; /* Light border color */
+  padding: 12px;
+  text-align: left;
+}
+
+.attendance-table th {
+  background-color: #3498db; /* Header background color */
+  color: #ffffff; /* Header text color */
+  font-weight: bold;
+  width: 80px;
+}
+
+.attendance-table td {
+  background-color: white; /* Cell background color */
+  color: #2c3e50; /* Cell text color */
+}
+
+.attendance-table tr:nth-child(even) {
+  background-color: #ecf0f1; /* Alternate row background color */
+}
+
+.attendance-table input[type="checkbox"] {
+  appearance: none; /* Remove default checkbox styles */
+  width: 18px;
+  height: 18px;
+  border: 2px solid royalblue; /* Checkbox border color */
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.attendance-table input[type="checkbox"]:checked {
+  background-color: #3498db; /* Checked checkbox background color */
+  border-color: #3498db; /* Checked checkbox border color */
+}
+
+/* Optional: Add transition for a smoother checkbox effect */
+.attendance-table input[type="checkbox"] {
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+
+
+/* Table.css */
+.table-container {
+  overflow-x: auto;
+  margin: 20px;
+  margin-left: 40PX;
+}
+.table-heading {
+  text-align: center;
+  margin-top: 60px;
+  color: royalblue;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  
+}
+
+/* Add responsiveness using media queries */
+@media (max-width: 600px) {
+  .custom-table th, .custom-table td {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .custom-table th, .custom-table td {
+    font-size: 10px;
+  }
+}

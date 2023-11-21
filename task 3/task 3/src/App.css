@@ -1,0 +1,81 @@
+/* PieChartsComponent.css */
+/* App.css */
+
+.App {
+  transition: margin-left 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.App.sidebar-open {
+  margin-left: 250px; /* Adjust the width based on your sidebar width */
+}
+
+.content-container {
+  flex-grow: 1;
+  padding: 20px;
+  transition: margin-left 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.content-container.sidebar-open {
+  margin-left: 250px; /* Same width as the sidebar */
+}
+.cards-container.sidebar-open .card {
+  margin-left: 250px; /* Same width as the sidebar */
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.heading-container h1 {
+  font-weight: bold;
+  margin-top: 140px;
+  color: #3498db;
+  
+}
+
+.pie-charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transition: margin-left 0.5s;
+  
+}
+
+.pie-chart {
+  width: 350px;
+  height: 400px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.8);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+
+.pie-chart:hover {
+  transform: scale(1.05);
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .pie-charts-container {
+    justify-content: center;
+  }
+
+  .pie-chart {
+    width: 80%;
+    height: 80vw;
+  }
+  .App {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .sidebar-open {
+    margin-left: 0; /* Sidebar is full width in smaller screens */
+  }
+
+  .content {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+}

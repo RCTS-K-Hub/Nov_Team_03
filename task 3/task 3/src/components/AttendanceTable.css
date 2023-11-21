@@ -1,0 +1,74 @@
+/* AttendanceTable.css */
+.table-container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-heading {
+  font-size: 24px;
+  color: #2c3e50; /* Dark Blue */
+  text-align: center;
+  margin-top: 200px;
+}
+
+.attendance-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.attendance-table th,
+.attendance-table td {
+  border: 1px solid #3498db; /* Blue */
+  padding: 12px;
+  text-align: left;
+}
+
+.attendance-table th {
+  background-color: #3498db; /* Blue */
+  color: #fff; /* White */
+}
+
+.attendance-table input {
+  margin-right: 5px;
+}
+
+/* Table.css */
+.table-container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-heading {
+  font-size: 30px;
+  color: #3498db; /* Red */
+}
+
+.custom-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #e74c3c; /* Red */
+  padding: 12px;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #e74c3c; /* Red */
+  color: #fff; /* White */
+}
+
+.custom-table td.hovered {
+  background-color: #f39c12; /* Orange */
+  color: #fff; /* White */
+}

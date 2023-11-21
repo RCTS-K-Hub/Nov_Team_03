@@ -1,0 +1,84 @@
+/* Navbar.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.5s;
+}
+
+.main-container {
+  display: flex;
+}
+
+/* Updated styles for the navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Adjust as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:royalblue;
+  padding: 10px;
+  color: white;
+}
+
+.toggle-btn {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.Navsearch[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+  border: none;
+}
+
+button {
+  padding: 5px;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Blur effect on content when sidebar is open */
+.container.blur {
+  filter: blur(5px); /* Adjust the blur strength as needed */
+  pointer-events: none; /* Disable pointer events on blurred content */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-btn {
+    margin-bottom: 10px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .Navsearch[type="text"] {
+    margin-bottom: 5px;
+  }
+}

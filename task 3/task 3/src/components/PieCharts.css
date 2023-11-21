@@ -1,0 +1,35 @@
+/* PieChartsComponent.css */
+
+.pie-charts-container {
+  background-color: white;
+  text-align: center;
+  margin-left: 25px;
+  bottom: 20px;
+  top: 20px;
+}
+
+.pie-chart {
+  width: 150px; /* Adjust the width as needed */
+  height: 120px; /* Adjust the height as needed */
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.8); /* Blue box shadow */
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.pie-chart:hover {
+  transform: scale(1.1);
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .pie-charts-container {
+    flex-direction: column; /* Change to column layout on smaller screens */
+    align-items: center; /* Center items when in column layout */
+  }
+
+  .pie-chart {
+    width: 50%;
+    height: 50vw;
+  }
+}

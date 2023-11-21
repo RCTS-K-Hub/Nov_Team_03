@@ -1,0 +1,39 @@
+/* Footer.css */
+
+
+
+.footer {
+  background-color: royalblue; /* Set your preferred background color */
+  color: white; /* Set your preferred text color */
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: -8px; /* Push the footer to the bottom */
+  margin-left: -8px;
+  bottom: 0;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 400px) {
+  .footer {
+    padding: 1px; /* Adjust the padding as needed */
+  }
+
+  .social-links {
+    flex-direction: column;
+  }
+
+  .social-links a {
+    margin: 3px 0;
+  }
+}
