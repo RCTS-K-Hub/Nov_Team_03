@@ -4,6 +4,7 @@
 NEED TO CREATE A FOLDER:- CLIENT: 1.The client was developed by react.js. 2.The project is divided into several components, each with its specific functionality and styling. Here, we provided the documentation of the main components and their associated CSS files.
 
 
+
 |-- src/
 |   |-- Navbar.js
 |   |-- Navbar.css
@@ -22,7 +23,8 @@ NEED TO CREATE A FOLDER:- CLIENT: 1.The client was developed by react.js. 2.The 
 |   |-- Formdata.js
 |   |-- Formdata.css
 |
-|   |-- App.js
+|
+|-- App.js
 
 
 ![Screenshot (4)](https://github.com/RCTS-K-Hub/Nov_Team_03/assets/116969273/48f31a34-d391-49ca-8a87-2e5ea4e10f72)
