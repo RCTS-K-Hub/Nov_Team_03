@@ -1,0 +1,16 @@
+/* searchbar.css */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  /* Add any other styling for the container if needed */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+/* Rest of the existing CSS remains the same */
+/* ... */
