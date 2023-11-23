@@ -1,0 +1,110 @@
+/* Footer.css */
+
+.footer {
+  background-color: #006663 + #111111;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 40px;
+  margin: 0 auto;
+  background-color: #e84393;
+background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
+
+.col1 {
+  flex: 1;
+  max-width: 300px;
+  color: #fff;
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.media-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.media-icons i {
+  font-size: 1.5em;
+  color: #fff; /* Add this line to set the icon color to white */
+}
+
+.col2 {
+  flex: 1;
+  max-width: 400px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu p {
+  margin: 0;
+  text-align: center;
+}
+
+.col3 {
+  flex: 1;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.input-wrap {
+  display: flex;
+}
+
+.footer-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  background-color: #8665f7;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.mekk {
+  font-size: 0.8em;
+  
+}
+
+@media screen and (max-width: 1000px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col1,
+  .col2,
+  .col3 {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}

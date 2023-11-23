@@ -1,0 +1,78 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+  margin-top: -10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 25px 32px;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head-of-form {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.Contact-form {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  padding: 20px 80px;
+}
+
+.form-text{
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.Day-form{
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.checkbox {
+  width: auto;
+}
+
+.select {
+  width: 100%;
+  padding: 6px 10px;
+  margin-top: 2px;
+}
+
+.radio {
+  width: auto;
+}
+
+.button {
+  padding: 8px 25px;
+  cursor: pointer;
+  background:white;
+  color: black;
+  border: none;
+}

@@ -1,0 +1,83 @@
+.chart-heading {
+  font-family: "Rubik", sans-serif;
+  color:white;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+}
+
+.chart-container {
+  width: 200px;
+}
+
+.programming-stats {
+  font-family: "Rubik", sans-serif;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  max-height: 100vh;
+  width: fit-content;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 8px 32px;
+  color:white;
+  transition: all 400ms ease;
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
+
+.programming-stats:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
+}
+
+.programming-stats .details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.programming-stats .details ul li {
+  font-size: 16px;
+  margin: 12px 0;
+  text-transform: uppercase;
+}
+
+.programming-stats .details .percentage {
+  font-weight: 700;
+  color: #e63946;
+}
+
+.Chart {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Add this to your PieChart.css or a separate CSS file */
+
+.Chart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e84393;
+background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
+
+.Chart-overview {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 1rem;
+  text-align: center; /* Adjust the margin as needed */
+}
+
+.Charts-head{
+  font-size: 24px;
+  color: var(--primary-color); /* Change the color as needed */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  font-weight: bold;
+}

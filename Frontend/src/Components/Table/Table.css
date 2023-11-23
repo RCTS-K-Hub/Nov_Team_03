@@ -1,0 +1,79 @@
+.table-row {
+  display: table;
+  width: 80%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 12px 0;
+  color:white;
+  background-color: #e84393;
+background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+  font-size: 13px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 50, 0.3);
+}
+
+.table-head {
+  background-color: #e84393;
+background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table-head .table-cell {
+  border-right: none;
+}
+
+.table-cell {
+  display: table-cell;
+  width: 20%;
+  text-align: center;
+  padding: 4px 0;
+  border-right: 1px solid #d6d4d4;
+  vertical-align: middle;
+}
+
+.first-cell {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.last-cell {
+  border-right: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+#searchInput {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}
+
+.tablecontainer {
+  min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+  background-color: #e84393;
+background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
+
+.Analysis{
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,21 @@
+/* Navbar styles */
+nav {
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+label[for="menuToggle"] {
+  cursor: pointer;
+  display: block;
+  font-size: 24px;
+  z-index: 2;
+  color: aliceblue;
+}

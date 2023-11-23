@@ -1,0 +1,116 @@
+#menuToggle {
+  display: none;
+}
+
+/* Sidenav styles */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  left: 0;
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidenav a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+
+#menuToggle:checked ~ .sidenav {
+  width: 250px;
+}
+
+
+#menuToggle:checked ~ .sidenav ~ .content {
+  margin-left: 250px;
+}
+
+#menuToggle:checked ~ .sidenav ~ .pie-chart-container {
+  margin-left: 250px;
+}
+#menuToggle:checked ~ .sidenav ~ .table-container  {
+  margin-left: 250px;
+}
+#menuToggle:checked ~ .sidenav ~ .form-container  {
+  margin-left: 250px;
+}
+
+#menuToggle:checked ~ .sidenav ~ *{
+  margin-left: 250px;
+}
+
+label[for="menuToggle"] {
+  cursor: pointer;
+  display: block;
+  font-size: 24px;
+  z-index: 2;
+}
+
+/* Adjust search bar size for screens less than 850px */
+@media (max-width: 850px) {
+  .search-bar {
+    width: 150px;
+  }
+
+  /* Full screen side navigation */
+  .sidenav {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 15px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sidenav a {
+    text-align: center;
+  }
+
+  #menuToggle:checked ~ .sidenav {
+    width: 0;
+  }
+  .content {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  #menuToggle:checked ~ .sidenav ~ .content {
+    margin-left: 0;
+  }
+  #menuToggle:checked ~ .sidenav ~ .pie-chart-container {
+    margin-left: 0;
+  }
+  #menuToggle:checked ~ .sidenav ~ .table-container {
+    margin-left: 0;
+  }
+  #menuToggle:checked ~ .sidenav ~ .form-container {
+    margin-left: 0;
+  }
+  /* #menuToggle:checked ~ .sidenav ~ .container {
+    margin-left: 0;
+  } */
+  #menuToggle:checked ~ .sidenav ~ * {
+    margin-left: 0;
+  }
+}
